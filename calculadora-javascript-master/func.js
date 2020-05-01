@@ -15,7 +15,6 @@ function igual(){
 
 function verifica_exibe(sinal){
     let tela = document.getElementById('resultado').value
-<<<<<<< HEAD
     let soma = tela.includes('+')
     let sub = tela.includes('-')
     let mult = tela.includes('*')
@@ -31,13 +30,6 @@ function verifica_exibe(sinal){
             }
         }       
 
-=======
-    let n = tela.includes(sinal)
-    if(tela){
-        if(!n){
-        document.getElementById('resultado').value = tela + sinal
-        }    
->>>>>>> 1788a0bcdc6e1a57fce8e4dd71550e1ed807f674
     }
 
 }
